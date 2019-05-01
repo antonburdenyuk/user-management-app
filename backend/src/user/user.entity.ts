@@ -7,4 +7,16 @@ export class User {
 
   @Column({ length: 30 })
   email: string;
+
+  @Column({ length: 30 })
+  firstName: string;
+
+  @Column({ length: 30 })
+  lastName: string;
+
+  @Column({ length: 30 })
+  password: string;
+
+  @Column()
+  phone: number;
 }
