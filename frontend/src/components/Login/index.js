@@ -17,8 +17,7 @@ const Login = () => {
   const handleEmailChange = e => {
     const value = e.target.value;
     setEmail(value);
-    validateEmail(value);
-    validateFormField(value, []);
+    console.log(validateFormField(value, ["email"]));
   };
 
   return (
